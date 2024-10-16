@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.i{
+    color: #CB477F;
+}
+
+.head-img{
+    width: 100%;
+    height: 550px;
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(img_bg_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.head-logo {
+    font-family: Sacramento;
+    font-size: -webkit-xxx-large;
+    font-weight: 500;
+
+}
+.title{
+    position: relative;
+    top: 70px;
+    font-weight: 500;
+}
+.title-1{
+    font-family: Sacramento;
+    font-size: -webkit-xxx-large;
+}
+.time{
+    background-color: #CB477F;
+}
+.font{
+    color: #CB477F;
+    font-family: Sacramento;
+    font-size: -webkit-xxx-large;
+    
+}
+.groom{
+    height: 450px;
+}
+.main-img{
+    width: 100%;
+    height: 1200px;
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(img_bg_3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main-c{
+    background-color: transparent;
+}
+
+
+.line{
+    width: 1%;
+  }
+  .img-1{
+      position: relative;
+      color: #959595;
+  }
+  .img1-1{
+      position: absolute;
+      left: 35px;
+      width: 15%;
+      top: 5%;
+      height: 5%;
+  }
+  .img2-1{
+      position: absolute;
+      left: 35px;
+      width: 15%;
+      top: 35%;
+      height: 5%;
+  }
+  .img3-1{
+      position: absolute;
+      left: 35px;
+      width: 15%;
+      top: 70%;
+      height: 5%;
+  }
+  .gallery{
+    background-color: #F5F5F5;
+  }
+  .count{
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(img_bg_5.jpg);
+  }
+  .icon{
+    font-size: x-large;
+  }
+  .footer{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(img_bg_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footer-input::placeholder{
+    color: white;
+  }
+  .footer-input{
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .z{
+        height: 200px;
+    }
+    .main-img{
+        height: 650px;
+    }
+  
+
+    .img1-1{
+        position: absolute;
+        left: 25px;
+        width: 15%;
+        height: 15%;
+        top: 5%;
+    }
+    .img2-1{
+        position: absolute;
+        width: 15%;
+        height: 15%;
+        top: 36%;
+    }
+    .img3-1{
+        position: absolute;
+        width: 15%;
+        height: 15%;
+        top: 70%;
+    }
+   
+}
+
+
+@media(min-width:992px){
+ 
+    .img1-1{
+        position: absolute;
+        left: 550px;
+        width: 10%;
+        height: 20%;
+        
+    }
+    .img2-1{
+        position: absolute;
+        width: 10%;
+        height: 20%;
+        left: 550px;
+      
+    }
+    .img3-1{
+        position: absolute;
+        width: 10%;
+        height: 20%;
+        left: 550px;
+        top: 70%;
+    }
+    .count{
+        height: 400px;
+    }
+  
+}
+
+
